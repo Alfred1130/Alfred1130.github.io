@@ -2,12 +2,16 @@ body {
     background-color: aquamarine;
 }
 
+#mindiv{
+  padding: 50px;
+}
+/* id element*/
 
 table, th, td {
     border: 1px solid black;
     width: 500px;
   }
-
+ /*klass istället för element*/
   .hundar {
     
     width: 200px;
@@ -15,4 +19,5 @@ table, th, td {
  h4 {
     font-style: italic;
     text-decoration: underline;
- }
+}
+
