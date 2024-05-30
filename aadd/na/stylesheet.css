@@ -1,0 +1,299 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+    font-family:'entypo', sans-serif;
+}
+@font-face {
+    font-family:'Museo';
+    src: url("http://rocket-design.fr/fonts/museo/museo.eot?") format("eot"), url("http://rocket-design.fr/fonts/museo/museo.woff") format("woff"), url("http://rocket-design.fr/fonts/museo/museo.ttf") format("truetype");
+}
+* {
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: .02em;
+}
+html, body {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #333333 url(http://sandbox.lucasbonomi.com/img/blur/Retina-Size/10.jpg) no-repeat center center;
+    background-size: cover;
+}
+.profile_card {
+    height: 230px;
+    width: 260px;
+    margin: 15vh auto;
+    border-radius: 1px;
+}
+.profile_card .header, .profile_card .profile {
+    height: 230px;
+    width: 100%;
+    float: left;
+}
+.profile_card .header:before {
+    content:'';
+    display: block;
+    width: 100px;
+    height: 28px;
+    background: #f9f9f9;
+    position: relative;
+    z-index: 1;
+    margin: 15em auto 0;
+}
+.profile_card .header .inner_head {
+    position: relative;
+    margin-top: -16.8em;
+    width: 260px;
+    height: 230px;
+    -webkit-transition: background 0.3s ease;
+    -moz-transition: background 0.3s ease;
+    transition: background 0.3s ease;
+}
+.profile_card .header .inner_head a {
+    font-size: 1.4em;
+    padding: 1.5em 0.5em 0 1em;
+    display: inline-block;
+    color: transparent;
+    text-decoration: none;
+    width: 23%;
+    text-align: center;
+}
+.profile_card .header .inner_head a i {
+    position: absolute;
+    margin-top: 2em;
+    text-align: center;
+    display: block;
+    display: none;
+    font-style: normal;
+    left: 0;
+    right: 0;
+    margin: 2.8em auto;
+    font-family:"Museo", Helvetica, sans-serif;
+    color: #fff;
+}
+.entypo-eye, .missing {
+    color: #c0392b !important;
+}
+.ma {
+    position: absolute;
+    margin-top: 2em;
+    text-align: center;
+    display: block;
+    font-style: normal;
+    left: 0;
+    right: 0;
+    margin: 3.1em auto;
+    font-family:"Museo", Helvetica, sans-serif;
+    color: #fff;
+    font-size: 20px;
+}
+.profile_card .header .inner_head a:hover i {
+    display: block;
+}
+.profile_card .header .inner_head a span {
+    margin-left: -.5em;
+    margin-top: -1em;
+    display: block;
+}
+.profile_card .header .inner_head a {
+    color: #fff;
+}
+.profile_card .header:hover a:nth-child(1):hover {
+    color: #2ecc71;
+}
+.profile_card .header:hover a:nth-child(2):hover {
+    color: #2ecc71;
+}
+.profile_card .header:hover a:nth-child(3):hover {
+    color: #2ecc71;
+}
+.profile_card .header:hover a:nth-child(4):hover {
+    color: #2ecc71;
+}
+.profile_card .header .inner_head {
+    background: rgba(0, 0, 0, 0.5);
+}
+.profile_card .profile {
+    background: #232323;
+    font-family:"Museo", serif;
+    border-left: 2px solid rgba(255,255,255,.5);
+    border-bottom: 2px solid rgba(255,255,255,.5);
+    border-top: 2px solid rgba(255,255,255,.5);
+}
+.profile_card .profile .avatar_image {
+    width: 82px;
+    height: 82px;
+    background-size: 100%;
+    border-radius: 100%;
+    background-color: #232323;
+    margin: -1.2em auto;
+    border: 5px solid #2ecc71;
+    position: relative;
+    bottom: 1.6em;
+    z-index: 3;
+}
+.profile_card .profile .inner_content {
+    width: 92%;
+    height: 212px;
+    float: left;
+    margin: -2.2em 4%;
+    background: #f9f9f9;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 1px;
+}
+.profile_card .profile .inner_content .name {
+    color: #959595;
+    font-size: .9em;
+    text-align: center;
+    padding: .3em 0 .2em;
+    line-height: 2;
+    border-top: 0.1em solid rgba(0, 0, 0, 0.2);
+    border-bottom: 0.1em solid rgba(0, 0, 0, 0.2);
+    font-family:"Lato";
+    font-weight: 400;
+    margin: 2.8em auto;
+    width: 75%;
+    margin-bottom: 1em;
+}
+.profile_card .profile .inner_content .description {
+    font-size: .75em;
+    text-align: center;
+    line-height: .5;
+    font-weight: 100;
+    font-family:"Lato";
+    padding: .2em .5em -.1em;
+    color: #ababab;
+    text-shadow: -1px -1px 0px rgba(255, 255, 255, 0.8);
+    position: relative;
+    top: .6em;
+}
+.profile_card .profile .inner_content ul {
+    list-style: none;
+    padding: 0;
+    width: 80%;
+    height: 3.5em;
+    display: block;
+    margin: 1em auto;
+}
+.profile_card .profile .inner_content ul li {
+    display: block;
+    float: left;
+    padding: 0;
+    margin: .75em 0 0 1.25em;
+    text-align: center;
+}
+.profile_card .profile .inner_content ul li:hover a {
+    color: #7f8c8d;
+}
+.profile_card .profile .inner_content ul li a {
+    color: #95a5a6;
+    text-decoration: none;
+    text-align: center;
+}
+.profile_card .profile .inner_content ul li a span {
+    line-height: 1;
+}
+h1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+.social_links {
+    text-align: center;
+}
+.bottom {
+    font-size: 30px;
+    padding: 23px;
+    color: #95a5a6;
+    position: relative;
+    top: 1em;
+}
+.bottom:hover {
+    color: #2ecc71;
+}
+
+.sidemenu1, .sidemenu2{
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    background: #232323;
+    position: relative;
+    left: 16.1em;
+    bottom: 2.85em;
+
+
+
+}
+
+.sidemenu1{
+        border-right: 2px solid rgba(255,255,255,.5);
+     border-top: 2px solid rgba(255,255,255,.5);
+}
+
+.sidemenu2{
+            border-right: 2px solid rgba(255,255,255,.5);
+     border-bottom: 2px solid rgba(255,255,255,.5);
+}
+
+.entypo-eye{
+    top: -2.5em;
+    font-size: 32px !important;
+}
+
+.menuicon{
+    color: white !important;
+    font-size: 40px;
+    position: relative;
+    bottom: 3.2em;
+}
+
+.sidemenu1:hover{
+    background-color:#2ecc71;
+}
+
+.sidemenu2:hover{
+    background-color:#f1c40f;
+}
+
+.profile_card .sidemenu2 { 
+    position: relative;
+  left: 13.5em;    
+    opacity: 1; 
+    z-index: -1;
+    -webkit-transition: all 0.3s ease-out;
+       -moz-transition: all 0.3s ease-out;
+        -ms-transition: all 0.3s ease-out;
+         -o-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+}
+
+.sidemenu1 { 
+    position: relative;
+  left: 13.5em;    
+    opacity: 1; 
+    z-index: -1;
+    -webkit-transition: all 0.3s ease-out;
+       -moz-transition: all 0.3s ease-out;
+        -ms-transition: all 0.3s ease-out;
+         -o-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+}
+
+.profile:hover .sidemenu2{
+    left: 16.12em;
+}
+
+
+
+.profile:hover .sidemenu1{
+    left: 16.12em;
+}
